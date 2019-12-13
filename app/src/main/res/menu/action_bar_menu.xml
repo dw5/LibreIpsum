@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/copy"
+        android:title="@string/action_copy"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_copy"/>
+
+    <item
+        android:id="@+id/action_share"
+        android:title="@string/share"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_share"/>
+
+    <item
+        android:id="@+id/action_more"
+        android:icon="@drawable/ic_more"
+        android:title=""
+        app:showAsAction="always">
+
+        <menu>
+            <item
+                android:id="@+id/action_about"
+                android:title="@string/about"
+                app:showAsAction="ifRoom"
+                android:icon="@drawable/ic_info"/>
+        </menu>
+
+    </item>
+</menu>

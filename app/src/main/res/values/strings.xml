@@ -1,0 +1,72 @@
+<resources>
+
+    <string name="app_name">Libre Ipsum</string>
+
+    <string name="title_word">Word</string>
+    <string name="title_sentence">Sentence</string>
+    <string name="title_paragraph">Paragraph</string>
+
+    <string name="title_words">Words</string>
+    <string name="title_sentences">Sentences</string>
+    <string name="title_paragraphs">Paragraphs</string>
+
+    <string name="action_copy">Copy</string>
+    <string name="share">Share</string>
+    <string name="about">About</string>
+
+    <string name="label">%d %s of Lorem Ipsum</string>
+    <string name="copy_message">Copied %s</string>
+    <string name="share_message">Share %s</string>
+
+    <string name="about_title">About Libre Ipsum</string>
+    <string name="about_message"><![CDATA[
+        Version {versionInfo}<br />
+        <br />
+        A privacy friendly simple to use dummy-text generator App for Android, in the spirit
+        or traditional Lorem Ipsum layout texts.<br />
+        <br />
+        This app is available under the terms of GNU General Public License Version 3 or later.<br />
+        <br />
+        Website: <a href="https://get-disconnected.org/apps/LibreIpsum">
+            https://get-disconnected.org/apps/LibreIpsum
+        </a><br />
+        <br />
+        Follow us on the Fediverse:<br />
+        <a href="https://mastodon.technology/@getdisconnected">@getdisconnected@mastodon.technology</a><br />
+        <br />
+        -----<br />
+        <br />
+        Licenses of third party libraries:<br />
+        <br />
+        <b>Lorem</b><br />
+        An extremely useful Lorem Ipsum generator!<br />
+        © 2015 Miguel De Anda - License: MIT<br />
+        https://github.com/mdeanda/lorem<br />
+        <br />
+        <b>Material Icons</b><br />
+        Delightful, beautifully crafted symbols for common actions and items.
+        © 2019 Google - License: Apache-2.0<br />
+        https://material.io/icons<br />
+        <br />
+        <b>NumberPicker</b><br />
+        The android library that provides a simple and customizable NumberPicker.<br />
+        © 2018 ShawnLin013 - License: MIT<br />
+        https://github.com/ShawnLin013/NumberPicker<br />
+        <br />
+        <b>Android Jetpack</b><br />
+        libraries, tools, and guidance to help developers write high-quality apps<br />
+        © 2019 Google - License: Apache-2.0<br />
+        https://developer.android.com/jetpack<br />
+        <br />
+        <b>Material Design Components</b>
+        Material Components for Android<br />
+        © 2019 Google - License: Apache-2.0<br />
+        https://material.io/develop/android<br />
+        <br />
+        -----<br />
+        <br />
+        Copyright © Michael Pöhn 2019
+    ]]></string>
+    <string name="about_close">close</string>
+
+</resources>

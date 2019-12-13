@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/nav_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:elevation="10dp"
+        android:background="#fff"
+        android:orientation="horizontal">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/nav_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="0dp"
+            android:layout_marginEnd="0dp"
+            android:layout_weight="10"
+            app:menu="@menu/bottom_nav_menu" />
+
+        <com.shawnlin.numberpicker.NumberPicker
+            android:id="@+id/number_picker"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            app:np_orientation="vertical"
+            app:np_textSize="12sp"
+            app:np_hideWheelUntilFocused="false"
+            app:np_selectedTextSize="16sp"
+            app:np_dividerColor="#888"
+            app:np_fadingEdgeEnabled="false"
+            app:np_fadingEdgeStrength="0"
+            app:np_wrapSelectorWheel="false"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/nav_container"
+        app:layout_constraintBottom_toBottomOf="@id/nav_container"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <TextView
+            android:id="@+id/the_text"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="serif"
+            android:textIsSelectable="true"
+            android:paddingTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="100dp"
+            android:text="Lorem Ipsum" />
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
