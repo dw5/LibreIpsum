@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: Libre Ipsum
+Upstream-Contact: Michael Pöhn <michael.poehn@fsfe.org>
+Source: https://get-disconnected.org/apps/LibreIpsum
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
