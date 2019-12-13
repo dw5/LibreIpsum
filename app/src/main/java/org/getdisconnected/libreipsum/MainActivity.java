@@ -1,3 +1,7 @@
+// SPDX-FileCopyrightText: 2019 Michael Pöhn <michael.poehn@fsfe.org>
+//
+// SPDX-License-Identifier: GPL-3.0-or-later
+
 package org.getdisconnected.libreipsum;
 
 import android.content.ClipData;
