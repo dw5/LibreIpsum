@@ -1,0 +1,4 @@
+Lorem Ipsum is placeholder text popular for testing layouts and graphic
+designs. This app generated texts similar to the traditional Lorem Ipsum text.
+Users can specify how long of generated texts should be by selecting the number
+of words, sentences or paragraphs.
