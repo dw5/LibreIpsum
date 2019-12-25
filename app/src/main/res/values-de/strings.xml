@@ -1,42 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="title_word">Wort</string>
+    <string name="title_sentence">Satz</string>
+    <string name="title_paragraph">Absatz</string>
 
-    <string name="app_name" translatable="false">Libre Ipsum</string>
+    <string name="title_words">Wörter</string>
+    <string name="title_sentences">Sätze</string>
+    <string name="title_paragraphs">Absätze</string>
 
-    <string name="title_word">Word</string>
-    <string name="title_sentence">Sentence</string>
-    <string name="title_paragraph">Paragraph</string>
+    <string name="action_copy">Kopieren</string>
+    <string name="share">Teilen</string>
+    <string name="about">Über diese App</string>
 
-    <string name="title_words">Words</string>
-    <string name="title_sentences">Sentences</string>
-    <string name="title_paragraphs">Paragraphs</string>
+    <string name="label">%d %s Lorem Ipsum</string>
+    <string name="copy_message">%s kopiert</string>
+    <string name="share_message">Teile %s</string>
 
-    <string name="action_copy">Copy</string>
-    <string name="share">Share</string>
-    <string name="about">About</string>
-
-    <string name="label">%d %s of Lorem Ipsum</string>
-    <string name="copy_message">Copied %s</string>
-    <string name="share_message">Share %s</string>
-
-    <string name="about_title">About Libre Ipsum</string>
+    <string name="about_title">Über Libre Ipsum</string>
     <string name="about_message"><![CDATA[
         Version {versionInfo}<br />
         <br />
-        A privacy friendly simple to use dummy-text generator App for Android, in the spirit
-        or traditional Lorem Ipsum layout texts.<br />
+        Eine privatspherefreundliche einfach zu bedienende Pseudotextgenartor App für Android,
+        in Anlehnung an das traditionelle Lorem Ipsum Textsatzhelfertexte.<br />
         <br />
-        This app is available under the terms of GNU General Public License Version 3 or later.<br />
+        Diese app steht unter den Bedingungen der GNU General Public License Version 3 oder neuer
+        zur Verfügung.<br />
         <br />
         Website: <a href="https://get-disconnected.org/apps/LibreIpsum">
             https://get-disconnected.org/apps/LibreIpsum
         </a><br />
         <br />
-        Follow us on the Fediverse:<br />
+        Folge Sie uns im Fediverse:<br />
         <a href="https://mastodon.technology/@getdisconnected">@getdisconnected@mastodon.technology</a><br />
         <br />
         -----<br />
         <br />
-        Licenses of third party libraries:<br />
+        Lizenzen von Drittanbieter-Bibliotheken:<br />
         <br />
         <b>Lorem</b><br />
         An extremely useful Lorem Ipsum generator!<br />
@@ -67,6 +66,7 @@
         <br />
         Copyright © Michael Pöhn 2019
     ]]></string>
-    <string name="about_close">close</string>
+
+    <string name="about_close">schließen</string>
 
 </resources>
