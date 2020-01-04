@@ -1,0 +1,6 @@
+### Added
+- display icon on about page
+- added changelog
+
+### Fixed
+- fixed f-droid metadata

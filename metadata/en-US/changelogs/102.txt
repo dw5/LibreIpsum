@@ -1,0 +1,5 @@
+### Fixed
+- fixed crash when starting app: disable minify
+
+### Added
+- german translation

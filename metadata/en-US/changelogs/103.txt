@@ -1,0 +1,7 @@
+### Added
+- added changelog metadata
+
+### Fixed
+- fixed overflow menu text color
+- added GPL short notice to about page
+- fixed typo on about page
