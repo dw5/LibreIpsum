@@ -23,16 +23,33 @@
         Version {versionInfo}<br />
         <br />
         A privacy friendly simple to use dummy-text generator App for Android, in the spirit
-        or traditional Lorem Ipsum layout texts.<br />
-        <br />
-        This app is available under the terms of GNU General Public License Version 3 or later.<br />
+        of traditional Lorem Ipsum layout helper-texts.<br />
         <br />
         Website: <a href="https://get-disconnected.org/apps/LibreIpsum">
             https://get-disconnected.org/apps/LibreIpsum
         </a><br />
         <br />
         Follow us on the Fediverse:<br />
-        <a href="https://mastodon.technology/@getdisconnected">@getdisconnected@mastodon.technology</a><br />
+        <a href="https://mastodon.technology/@getdisconnected">
+        @getdisconnected@mastodon.technology</a><br />
+        <br />
+        -----<br />
+        <br />
+        Copyright © 2019-2020 Michael Pöhn<br />
+        <br />
+        This program is free software: you can redistribute it and/or modify
+        it under the terms of the GNU General Public License as published by
+        the Free Software Foundation, either version 3 of the License, or
+        (at your option) any later version.<br />
+        <br />
+        This program is distributed in the hope that it will be useful,
+        but WITHOUT ANY WARRANTY; without even the implied warranty of
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+        GNU General Public License for more details.<br />
+        <br />
+        You should have received a copy of the GNU General Public License
+        along with this program.  If not, see <a href="http://www.gnu.org/licenses">
+        www.gnu.org/licenses</a>.<br />
         <br />
         -----<br />
         <br />
@@ -49,7 +66,7 @@
         https://github.com/ShawnLin013/NumberPicker<br />
         <br />
         <b>Material Icons</b><br />
-	Delightful, beautifully crafted symbols for common actions and items.<br />
+        Delightful, beautifully crafted symbols for common actions and items.<br />
         © 2019 Google - License: Apache-2.0<br />
         https://material.io/icons<br />
         <br />
@@ -62,10 +79,6 @@
         libraries, tools, and guidance to help developers write high-quality apps<br />
         © 2019 Google - License: Apache-2.0<br />
         https://developer.android.com/jetpack<br />
-        <br />
-        -----<br />
-        <br />
-        Copyright © Michael Pöhn 2019
     ]]></string>
     <string name="about_close">close</string>
 

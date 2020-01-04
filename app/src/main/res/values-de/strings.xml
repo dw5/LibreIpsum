@@ -23,15 +23,31 @@
         Eine privatspherefreundliche einfach zu bedienende Pseudotextgenartor App für Android,
         in Anlehnung an das traditionelle Lorem Ipsum Textsatzhelfertexte.<br />
         <br />
-        Diese app steht unter den Bedingungen der GNU General Public License Version 3 oder neuer
-        zur Verfügung.<br />
-        <br />
         Website: <a href="https://get-disconnected.org/apps/LibreIpsum">
             https://get-disconnected.org/apps/LibreIpsum
         </a><br />
         <br />
         Folge Sie uns im Fediverse:<br />
-        <a href="https://mastodon.technology/@getdisconnected">@getdisconnected@mastodon.technology</a><br />
+        <a href="https://mastodon.technology/@getdisconnected">
+        @getdisconnected@mastodon.technology</a><br />
+        <br />
+        -----<br />
+        <br />
+        Copyright 2019-2020 © Michael Pöhn
+        <br />
+        Dieses Programm ist freie Software. Sie können es unter den Bedingungen der GNU General
+        Public License, wie von der Free Software Foundation veröffentlicht, weitergeben und/oder
+        modifizieren, entweder gemäß Version 3 der Lizenz oder (nach Ihrer Option) jeder späteren
+        Version.<br />
+        <br />
+        Die Veröffentlichung dieses Programms erfolgt in der Hoffnung, daß es Ihnen von Nutzen sein
+        wird, aber OHNE IRGENDEINE GARANTIE, sogar ohne die implizite Garantie der MARKTREIFE oder
+        der VERWENDBARKEIT FÜR EINEN BESTIMMTEN ZWECK. Details finden Sie in der GNU General Public
+        License.<br />
+        <br />
+        Sie sollten ein Exemplar der GNU General Public License zusammen mit diesem Programm
+        erhalten haben. Falls nicht, siehe <a href="https://www.gnu.org/licenses">
+        www.gnu.org/licenses</a>. <br />
         <br />
         -----<br />
         <br />
@@ -64,7 +80,6 @@
         <br />
         -----<br />
         <br />
-        Copyright © Michael Pöhn 2019
     ]]></string>
 
     <string name="about_close">schließen</string>
