@@ -8,10 +8,18 @@
         <item name="colorAccent">@color/colorAccent</item>
 
         <item name="android:actionOverflowButtonStyle">@style/OverFlow</item>
+
+        <item name="actionBarPopupTheme">@style/AppTheme.ActionBarPopupTheme</item>
     </style>
 
     <style name="OverFlow" parent="@style/Widget.AppCompat.ActionButton.Overflow">
         <item name="android:src">@drawable/ic_more</item>
+    </style>
+
+
+    <style name="AppTheme.ActionBarPopupTheme" parent="Widget.AppCompat.Light.ListPopupWindow">
+        <item name="android:textColor">@color/textGrey</item>
+        <item name="android:background">@color/colorBackground</item>
     </style>
 
 </resources>
