@@ -1,4 +1,1 @@
-Lorem Ipsum ist ein Platzhaltertext der beliebt ist um Layouts und
-Grafikdesigns zu testen. Diese App generiert Texte die dem traditionellen Lorem
-Ipsum Text ähneln. Benutzer können angeben wie lange ein generierter Text sein
-soll in dem sie eine Anzahl an Wörtern, Sätzen oder Paragraphen festlegen.
+Lorem Ipsum ist ein Platzhaltertext der beliebt ist um Layouts und Designs zu testen. Diese App generiert Texte die dem traditionellen Lorem Ipsum Text ähneln. Benutzer können angeben wie lange ein generierter Text sein soll in dem sie eine Anzahl an Wörtern, Sätzen oder Paragraphen festlegen.
