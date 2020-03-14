@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <string name="app_name">Libre Ipsum</string>
+
     <string name="title_word">Wort</string>
     <string name="title_sentence">Satz</string>
     <string name="title_paragraph">Absatz</string>
