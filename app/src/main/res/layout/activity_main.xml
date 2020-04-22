@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/container"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    >
 
     <LinearLayout
         android:id="@+id/nav_container"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
+        android:layout_alignParentBottom="true"
         android:elevation="10dp"
         android:background="#fff"
         android:orientation="horizontal">
@@ -42,27 +42,24 @@
     </LinearLayout>
 
     <ScrollView
+        android:id="@+id/text_scroller"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/nav_container"
-        app:layout_constraintBottom_toBottomOf="@id/nav_container"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0">
+        android:layout_height="match_parent"
+        android:layout_above="@+id/nav_container"
+        >
 
         <TextView
             android:id="@+id/the_text"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:fontFamily="serif"
             android:textIsSelectable="true"
             android:paddingTop="10dp"
             android:paddingLeft="10dp"
             android:paddingRight="10dp"
-            android:paddingBottom="100dp"
+            android:paddingBottom="50dp"
             android:text="Lorem Ipsum" />
 
     </ScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
